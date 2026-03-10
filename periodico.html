@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Periódico Escolar</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f0f0f0;
+}
+
+/* encabezado */
+
+header{
+    background:#0d47a1;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
+/* menú */
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+
+/* contenido */
+
+section{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    margin-top:20px;
+}
+
+h2{
+    border-bottom:3px solid #ddd;
+    padding-bottom:10px;
+}
+
+/* noticias */
+
+.noticias{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.noticia{
+    background:#fafafa;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* iframe */
+
+.contenedor{
+    position: relative;
+    width:100%;
+    height:0;
+    padding-top:141%;
+}
+
+.contenedor iframe{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    border:none;
+}
+
+/* footer */
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🗞️ Periódico Escolar</h1>
+<p>Proyecto de tecnología e informática</p>
+</header>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#noticias">Noticias</a>
+<a href="#periodico">Periódico</a>
+<a href="#conclusion">Conclusión</a>
+</nav>
+
+<section id="inicio">
+
+<h2>Introducción</h2>
+
+<p>
+Este sitio web fue creado como parte de un proyecto escolar con el objetivo de
+presentar un periódico digital. En este trabajo se recopila información,
+noticias y temas de interés que fueron investigados y organizados para crear
+un contenido informativo.
+</p>
+
+<p>
+El uso de herramientas digitales permite que los estudiantes desarrollen
+habilidades de investigación, redacción y diseño. Además, la creación de una
+página web permite compartir el trabajo de forma moderna y accesible.
+</p>
+
+</section>
+
+<section id="noticias">
+
+<h2>Noticias Escolares</h2>
+
+<div class="noticias">
+
+<div class="noticia">
+<h3>Evento escolar</h3>
+<p>
+Durante este mes la escuela organizó diferentes actividades académicas y
+culturales que permitieron a los estudiantes participar y demostrar sus
+habilidades. Estas actividades ayudan a fortalecer el aprendizaje.
+</p>
+</div>
+
+<div class="noticia">
+<h3>Importancia de la educación</h3>
+<p>
+La educación es fundamental para el desarrollo de las personas y de la
+sociedad. A través del aprendizaje se adquieren conocimientos que permiten
+resolver problemas y mejorar el entorno.
+</p>
+</div>
+
+<div class="noticia">
+<h3>Tecnología en la escuela</h3>
+<p>
+La tecnología se ha convertido en una herramienta importante en la educación.
+Permite acceder a información, realizar investigaciones y crear proyectos
+digitales como este periódico escolar.
+</p>
+</div>
+
+<div class="noticia">
+<h3>Trabajo en equipo</h3>
+<p>
+Realizar un periódico requiere organización, investigación y trabajo en
+equipo. Cada estudiante puede aportar ideas y contenido para lograr un
+resultado completo.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="periodico">
+
+<h2>Periódico Digital</h2>
+
+<p>
+A continuación se muestra el periódico digital creado para este proyecto
+escolar.
+</p>
+
+<div class="contenedor">
+
+<iframe loading="lazy"
+src="https://www.canva.com/design/DAHDIiLwcs8/Ke-7VHSn0iy8IsZua0XYrg/view?embed"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+<section id="conclusion">
+
+<h2>Conclusión</h2>
+
+<p>
+La elaboración de este periódico digital permitió aprender a utilizar
+herramientas tecnológicas y a organizar información de manera clara y
+estructurada. Además, se desarrollaron habilidades importantes como la
+investigación, la redacción y el diseño digital.
+</p>
+
+<p>
+Este proyecto demuestra que la tecnología puede utilizarse para presentar
+información de forma creativa y moderna mediante el desarrollo de una página
+web.
+</p>
+
+</section>
+
+<footer>
+
+<p>Proyecto Escolar 2026</p>
+
+</footer>
+
+</body>
+</html>
